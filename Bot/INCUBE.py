@@ -24,10 +24,10 @@ load_dotenv()
 
 NL = '\n'
 
-TG_BOT_TOKEN = os.getenv('TG_BOT_TOKEN')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-CHANNEL_ID = os.getenv('CHANNEL_ID')
-CHANNEL_URL = os.getenv('CHANNEL_URL')
+TG_BOT_TOKEN = '6748206540:AAEX-FmcBIERRCSJXVGCe_x-Nvw0g5GSWJA' # bot @incubesmmbot
+OPENAI_API_KEY = 'sk-proj-yIuSe1J7W751SAvxFe2PT3BlbkFJFyGtZWQAFHQYj6BCFcHE'
+CHANNEL_ID = '-1002073552949'
+CHANNEL_URL = 'https://t.me/+jqUKtk2A-LxlMWQ6'
 
 GPT_PROMPT = '''Измени немного слова в посте, не меняя разметку.
 Удаляй следующие элементы:
@@ -39,7 +39,7 @@ GPT_PROMPT = '''Измени немного слова в посте, не ме�
 
 GPT_MAX_TOKENS = 500
 GPT_TEMPERATURE = 0.7
-LINK_CAPTION = 'SUBSCRIBE'
+LINK_CAPTION = 'INCUBE.AI|ПОДПИСАТЬСЯ'
 LINK_APPEND = f'{NL * 2}<a href="{CHANNEL_URL}">{LINK_CAPTION}</a>'
 MAX_DAILY_REPOSTS = 555
 MAX_SYMBOLS_MESSAGE = 4096
