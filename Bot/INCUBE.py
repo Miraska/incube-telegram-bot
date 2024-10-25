@@ -1,9 +1,7 @@
-import os
 import asyncio
 import openai
 import html
 import logging
-from dotenv import load_dotenv
 from typing import Any, Awaitable, Callable, Dict, Optional
 from datetime import date
 from bs4 import BeautifulSoup as bs
@@ -24,10 +22,10 @@ load_dotenv()
 
 NL = '\n'
 
-TG_BOT_TOKEN = '6748206540:AAEX-FmcBIERRCSJXVGCe_x-Nvw0g5GSWJA' # bot @incubesmmbot
+TG_BOT_TOKEN = '7731478826:AAHmu38ROw_QpFIKTSPUxmmgJbWaIKWDBQw' # bot @incubesmmbot
 OPENAI_API_KEY = 'sk-proj-yIuSe1J7W751SAvxFe2PT3BlbkFJFyGtZWQAFHQYj6BCFcHE'
-CHANNEL_ID = '-1002073552949'
-CHANNEL_URL = 'https://t.me/+jqUKtk2A-LxlMWQ6'
+CHANNEL_ID = '-1002460418418'
+CHANNEL_URL = 'https://t.me/test_bot_chanel_3454'
 
 GPT_PROMPT = '''Измени немного слова в посте, не меняя разметку.
 Удаляй следующие элементы:
