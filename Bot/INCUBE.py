@@ -18,8 +18,6 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State
 
 # ========================================================================== #
-load_dotenv()
-
 NL = '\n'
 
 TG_BOT_TOKEN = '7731478826:AAHmu38ROw_QpFIKTSPUxmmgJbWaIKWDBQw' # bot @incubesmmbot
