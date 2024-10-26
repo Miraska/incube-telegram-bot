@@ -35,7 +35,7 @@ GPT_PROMPT = '''Измени немного слова в посте, не ме�
 
 GPT_MAX_TOKENS = 500
 GPT_TEMPERATURE = 0.7
-LINK_CAPTION = 'INCUBE.AI|ПОДПИСАТЬСЯ'
+LINK_CAPTION = 'Metasouls|ПОДПИСАТЬСЯ'
 LINK_APPEND = f'{NL * 2}<a href="{CHANNEL_URL}">{LINK_CAPTION}</a>'
 MAX_DAILY_REPOSTS = 555
 MAX_SYMBOLS_MESSAGE = 4096
@@ -43,7 +43,7 @@ MAX_SYMBOLS_MESSAGE = 4096
 PROXY_URL = None
 # PROXY_URL = 'http://178.218.44.79:3128'
 
-ALLOWED_USERS = [416064234, 1498695786, 6799175057, 949078033]
+ALLOWED_USERS = [416064234, 1498695786, 6799175057, 949078033, 1419601456]
 
 # ========================================================================== #
 
