@@ -20,10 +20,10 @@ from aiogram.fsm.state import State
 # ========================================================================== #
 NL = '\n'
 
-TG_BOT_TOKEN = '7731478826:AAHmu38ROw_QpFIKTSPUxmmgJbWaIKWDBQw' # bot @incubesmmbot
-OPENAI_API_KEY = 'sk-proj-yIuSe1J7W751SAvxFe2PT3BlbkFJFyGtZWQAFHQYj6BCFcHE'
-CHANNEL_ID = '-1002460418418'
-CHANNEL_URL = 'https://t.me/test_bot_chanel_3454'
+TG_BOT_TOKEN = '7022039182:AAE6B38jJm6A0kiYMALYehmXxPl2X5HXO8Y' # bot @incubesmmbot
+OPENAI_API_KEY = ''
+CHANNEL_ID = '-1002039955061'
+CHANNEL_URL = 'https://t.me/metasouls_ai_wire'
 
 GPT_PROMPT = '''Измени немного слова в посте, не меняя разметку.
 Удаляй следующие элементы:
